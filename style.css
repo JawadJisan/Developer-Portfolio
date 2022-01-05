@@ -1,0 +1,94 @@
+.half-width{
+    width: 50%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+.top-section{
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(images/top-banner.png);
+    margin-bottom: 100px;
+    
+}
+.font-changes{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.new-id{
+    margin-right: 35px;
+    
+}
+#jawad-jisan span{
+    color: orange;
+    font-size: 35px;
+    font-weight:900;
+}
+#Hi-There span{
+    color:white;
+    background-color: rgb(17, 81, 255);
+    padding: 2px 30px;
+    border: 5px solid steelblue;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.margin{
+    margin-top: 120px;
+    margin-left: 130px;
+}
+a{
+    color: orangered;
+    padding: 15px;
+    margin-left: 15px;
+    border: rgb(17, 81, 255);
+    background-color: orange;
+    border-radius: 10px;
+}
+.section-two{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.width-half{
+    width: 100%;
+}
+#new-id{
+}
+.about-me, .experiences, .projects{
+    width: 30%;
+    border-radius: 5px;
+    border-left: 5px solid black;
+    box-shadow: 0px 0px 10px  rgb(42, 99, 165);
+    box-sizing:content-box;
+    padding: 10px;
+    margin: 20px;
+    text-align: justify;
+
+}
+.section-about{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-origin: inherit;
+
+}
+.My-Story, .Worked-projects, .My-Skills{
+    color: orange;
+}
+footer{
+    text-align: center;
+    color: darkcyan;
+}
+img{
+    object-fit: cover;
+}
